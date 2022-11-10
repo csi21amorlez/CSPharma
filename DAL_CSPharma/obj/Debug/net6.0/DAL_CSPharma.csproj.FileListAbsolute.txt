@@ -1,0 +1,14 @@
+E:\Instituto\CSPharma\DAL_CSPharma\bin\Debug\net6.0\DAL_CSPharma.deps.json
+E:\Instituto\CSPharma\DAL_CSPharma\bin\Debug\net6.0\DAL_CSPharma.runtimeconfig.json
+E:\Instituto\CSPharma\DAL_CSPharma\bin\Debug\net6.0\DAL_CSPharma.dll
+E:\Instituto\CSPharma\DAL_CSPharma\bin\Debug\net6.0\DAL_CSPharma.pdb
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.csproj.AssemblyReference.cache
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.GeneratedMSBuildEditorConfig.editorconfig
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.AssemblyInfoInputs.cache
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.AssemblyInfo.cs
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.csproj.CoreCompileInputs.cache
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.dll
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\refint\DAL_CSPharma.dll
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.pdb
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\DAL_CSPharma.genruntimeconfig.cache
+E:\Instituto\CSPharma\DAL_CSPharma\obj\Debug\net6.0\ref\DAL_CSPharma.dll
