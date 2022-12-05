@@ -7,24 +7,24 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using DAL_CSPharma.Models;
 
-namespace CSPharma.Pages
+namespace CSPharma.Pages.EstadoEnvio
 {
-    public class ListEstadoDevolucionModel : PageModel
+    public class ListEstadoEnvioModel : PageModel
     {
         private readonly DAL_CSPharma.Models.CspharmaInformacionalContext _context;
 
-        public ListEstadoDevolucionModel(DAL_CSPharma.Models.CspharmaInformacionalContext context)
+        public ListEstadoEnvioModel(DAL_CSPharma.Models.CspharmaInformacionalContext context)
         {
             _context = context;
         }
 
-        public IList<TdcCatEstadosDevolucionPedido> TdcCatEstadosDevolucionPedido { get;set; } = default!;
+        public IList<TdcCatEstadosEnvioPedido> TdcCatEstadosEnvioPedido { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            if (_context.TdcCatEstadosDevolucionPedidos != null)
+            if (_context.TdcCatEstadosEnvioPedidos != null)
             {
-                TdcCatEstadosDevolucionPedido = await _context.TdcCatEstadosDevolucionPedidos.ToListAsync();
+                TdcCatEstadosEnvioPedido = await _context.TdcCatEstadosEnvioPedidos.ToListAsync();
             }
         }
     }

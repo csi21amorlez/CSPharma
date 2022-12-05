@@ -15,32 +15,64 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Instituto\CSPharma\CSPharma
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Instituto/CSPharma/CSPharma/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Instituto/CSPharma/CSPharma/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Pages/EstadoDevolucion/ListEstadoDevolucion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0YWRvRGV2b2x1Y2lvblxMaXN0RXN0YWRvRGV2b2x1Y2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Pages/EstadoEnvio/ListEstadoEnvio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0YWRvRW52aW9cTGlzdEVzdGFkb0VudmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Pages/EstadoPago/ListEstadoPago.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0YWRvUGFnb1xMaXN0RXN0YWRvUGFnby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Pages/EstadoPedido/ListEstadoPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0YWRvUGVkaWRvXExpc3RFc3RhZG9QZWRpZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Instituto/CSPharma/CSPharma/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Instituto/CSPharma/CSPharma/Pages/ListEstadoDevolucion.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEVzdGFkb0Rldm9sdWNpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Instituto/CSPharma/CSPharma/Pages/ListEstadoEnvio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEVzdGFkb0VudmlvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Instituto/CSPharma/CSPharma/Pages/ListEstadoPago.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEVzdGFkb1BhZ28uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Instituto/CSPharma/CSPharma/Pages/ListEstadoPedidos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEVzdGFkb1BlZGlkb3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Instituto/CSPharma/CSPharma/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Instituto/CSPharma/CSPharma/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Instituto/CSPharma/CSPharma/Pages/Shared/_ValidationScriptsPartial.cshtml]

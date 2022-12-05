@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using DAL_CSPharma.Models;
 
-namespace CSPharma.Pages
+namespace CSPharma.Pages.EstadoPedido
 {
-    public class ListEstadoPedidosModel : PageModel
+    public class ListEstadoPedidoModel : PageModel
     {
         private readonly DAL_CSPharma.Models.CspharmaInformacionalContext _context;
 
-        public ListEstadoPedidosModel(DAL_CSPharma.Models.CspharmaInformacionalContext context)
+        public ListEstadoPedidoModel(DAL_CSPharma.Models.CspharmaInformacionalContext context)
         {
             _context = context;
         }

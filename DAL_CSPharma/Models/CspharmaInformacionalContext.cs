@@ -15,6 +15,8 @@ public partial class CspharmaInformacionalContext : DbContext
     {
     }
 
+    public virtual DbSet<DlkCatAccEmpleado> DlkCatAccEmpleados { get; set; }
+
     public virtual DbSet<TdcCatEstadosDevolucionPedido> TdcCatEstadosDevolucionPedidos { get; set; }
 
     public virtual DbSet<TdcCatEstadosEnvioPedido> TdcCatEstadosEnvioPedidos { get; set; }
@@ -25,10 +27,29 @@ public partial class CspharmaInformacionalContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Pooling=true;Database=cspharma_informacional;UserId=postgres;Password=root123;");
+        => optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=cspharma_informacional;User Id=postgres;Password=root123");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<DlkCatAccEmpleado>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToTable("dlk_cat_acc_empleado", "dlk_informacional", tb => tb.HasComment("Tabla de la base de datos \"dlk_informacional\" la cual contendra la informacion de los usuarios registrados en nuestra aplicacion web "));
+
+            entity.Property(e => e.ClaveEmpleado)
+                .HasColumnType("character varying")
+                .HasColumnName("clave_empleado ");
+            entity.Property(e => e.CodEmpleado)
+                .HasColumnType("character varying")
+                .HasColumnName("cod_empleado ");
+            entity.Property(e => e.MdDate).HasColumnName("md_date ");
+            entity.Property(e => e.MdUidd)
+                .HasColumnType("character varying")
+                .HasColumnName("md_uidd ");
+            entity.Property(e => e.NivelAccesoEmpleado).HasColumnName("nivel_acceso_empleado ");
+        });
+
         modelBuilder.Entity<TdcCatEstadosDevolucionPedido>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("tdc_cat_estados_devolucion_pedido_pkey");
